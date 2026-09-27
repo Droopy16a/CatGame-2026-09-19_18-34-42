@@ -84,6 +84,17 @@
       "source": "builtin",
       "dependencies": {}
     },
+    "com.unity.film-internal-utilities": {
+      "version": "0.20.0-preview",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.timeline": "1.2.18",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.graph-authoring": {
       "version": "1.0.0",
       "depth": 2,
@@ -158,6 +169,19 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.purchasing": {
+      "version": "5.4.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.services.core": "1.18.0",
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.render-pipelines.core": {
       "version": "17.6.0",
       "depth": 1,
@@ -192,6 +216,17 @@
       "depth": 2,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.services.core": {
+      "version": "1.18.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.2",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
@@ -233,6 +268,16 @@
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.particlesystem": "1.0.0"
       }
+    },
+    "com.unity.toonshader": {
+      "version": "https://github.com/Unity-Technologies/com.unity.toonshader.git?path=/com.unity.toonshader",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.film-internal-utilities": "0.20.0-preview",
+        "com.unity.render-pipelines.core": "17.0.3"
+      },
+      "hash": "1520a78a95292cb045f1edb4d60ea0dba2f213b3"
     },
     "com.unity.ugui": {
       "version": "2.6.0",
